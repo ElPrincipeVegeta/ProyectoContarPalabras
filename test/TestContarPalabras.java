@@ -19,5 +19,7 @@ public class TestContarPalabras {
     
         assertTrue(p1.textoCaracteresTotal(c1.contarCaracteresTotal(cadena)).equals("Total caracteres: "
                 +c1.contarCaracteresTotal(cadena)));
+        assertTrue(p1.textoNumeroPalabras(c1.contarNumeroPalabras(cadena)).equals("Total palabras: "
+                +c1.contarNumeroPalabras(cadena)));
     }
 }
