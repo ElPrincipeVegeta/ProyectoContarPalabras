@@ -11,17 +11,13 @@ public class TestContarPalabras {
     
     Printear p1 = new Printear();
     
-    
-    public TestContarPalabras() {
-        ContarPalabras c1 = new ContarPalabras();
-        String cadena = "buenos dias señor";
-        assertTrue(c1.contarNumeroPalabras(cadena)==3);
-    }
-
     @Test
     public void ContarPalabras() {
     
-    
+    ContarPalabras c1 = new ContarPalabras();
+        String cadena = "buenos dias señor";
+        assertTrue(c1.contarNumeroPalabras(cadena)==3);
+        assertTrue(c1.contarCaracteresTotal(cadena)==15);
     
     }
 }
