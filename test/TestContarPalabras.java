@@ -3,11 +3,25 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
+ * @author alumno
+ * @version 1.0.14
  *
- * @author tinpl
+ *La clase TestContarPalabras contiene los métodos necesarios para comprobar 
+ * que las demas clases del programa funcionan correctamente.
+ * 
  */
+
 public class TestContarPalabras {
     @Test
+    
+ /**
+ * @param ContarPalabras
+ * 
+ * método para comprobar
+ *  si los los métodos de ContarPalabras y Printear funcionan adecuadamente.
+ * 
+ * */
+    
     public void ContarPalabras() {
     
     ContarPalabras c1 = new ContarPalabras();
