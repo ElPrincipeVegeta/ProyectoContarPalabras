@@ -9,11 +9,10 @@
 public class Printear {
 
 /**
- * @param textoCaracteresTotal
  * 
  * Método que devuelve una cadena de texto donde no informa el total de caracteres contados.
- * 
- * @return cadena devueve la cadena de texto.
+ * @param total es el total de caracteres contados.
+ * @return String devueve la cadena de texto.
  * 
 * */        
     
@@ -24,11 +23,13 @@ return ("Total caracteres: "+total);
 
 
 /**
- * @param textoNumeroPalabras
- * 
  * Método que devuelve una cadena de texto donde no informa el total de palabras contadas.
  * 
- * @return cadena devueve la cadena de texto.
+ * @param total es el número total de palabras
+ * @param String devueve la cadena de texto
+ * 
+ * 
+ * @return String devueve la cadena de texto.
  * 
 * */        
 
