@@ -15,10 +15,10 @@ public class TestContarPalabras {
     @Test
     
  /**
- * @param ContarPalabras
  * 
  * método para comprobar
  *  si los los métodos de ContarPalabras y Printear funcionan adecuadamente.
+ * @param cadena es la cadena con la que vamos a comprobar los métodos
  * 
  * */
     
