@@ -12,10 +12,9 @@ import java.util.HashMap;
 public class ContarPalabras {
 
 /**
- * @param contarNumeroPalabras
- * 
  * Método que cuenta el número de palabras introducido.
- * 
+ * @param cadena es el string que recibe el método
+ * @param pal es el contador de palabras
  * @return pal devuelve el contador de palabras.
  * 
 * */    
@@ -31,7 +30,8 @@ return pal;
 }
 
 /**
- * @param contarCaracteresTotal
+ * @param cadena es el string que recibe el método
+ * @param cont es el contador de caracteres
  * 
  * Método que devuelve el número total de caracteres dada una determinada cadena.
  * 
@@ -49,10 +49,8 @@ return cont;
 }
 
 /**
- * @param repeticionesPro
  * 
  * Método que devuelve cuantas veces se repite cada caracter.
- * 
  * 
 * */    
 
